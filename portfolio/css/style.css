@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital@0;1&display=swap');
+@font-face {
+    font-family: 'aesthetic-regular';
+    src: url('fonts/aesthetic-regular.ttf');
+}
+html {
+    font-size: 16px;
+
+    @font-face {
+        font-family: 'aesthetic-regular';
+        src: url('fonts/aesthetic-regular.ttf');
+    }
+}
+body {
+    max-width: 87.5rem;
+    height: 16rem;
+    flex-shrink: 0;
+    font-family:'Anybody', sans-serif;
+    margin-top: 1rem auto;
+} 
+header {
+    background-color: #521E2B;
+    flex-shrink: 0;
+    }
+header img {
+    width: 87.5rem;
+    height: 15rem;
+    margin: auto;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Anybody', sans-serif;
+    width: 87.5rem;
+    height: 3.5625rem;
+    flex-shrink: 0;
+    background-color: #C9D9E7;
+
+}
+footer {
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 87.5rem;
+    height: 3.5625rem;
+    flex-shrink: 0;
+    background-color: #C9D9E7;
+
+}
+.bigtext {
+    margin-left: 8.5rem;
+    margin-top: 4rem;
+    margin-right: 31rem;
+    color: #000;
+    font-family: Aesthetic;
+    font-size: 9.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.portrait {
+    margin-left: 56.5rem;
+    margin-right: 9.25rem;
+    margin-top: -42rem;
+    width: 21.75rem;
+    height: 32.6875rem;
+}
+p {
+    width: 30rem;
+    flex-shrink: 0;
+    margin-left: 12rem;
+    }
+.medium {
+    flex-shrink: 0;
+    color: #000;
+    font-family: Aesthetic;
+    font-size: 6.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 35rem;
+}
+.ggp {
+    width: 54.375rem;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Aesthetic;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 40rem;
+    margin-top:-5rem;
+}
+.sf2022 {
+    color: #000;
+    font-family: Anybody;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 3.5625rem;
+    flex-shrink: 0;
+    margin-left: 73rem;
+    margin-top:-5rem;
+}
+.bigsur {
+    flex-shrink: 0;
+    color: #000;
+    font-family: Aesthetic;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 9rem;
+}
+.bscal {
+    color: #000;
+    font-family: Anybody;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 25rem;
+}
+.backyard {
+    flex-shrink: 0;
+    color: #000;
+    font-family: Aesthetic;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.bysf {
+    color: #000;
+    font-family: Anybody;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+a {
+    font-family: 'Anybody', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    text-decoration: none;
+    margin: 0 0 0 2rem;
+    color: #000;
+}
+a:hover {
+    color: #D5594C;
+}
+.selected {
+    color: #D5594C;
+}
+.lcs {
+    color: #000;
+    font-family: Aesthetic;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 5rem;
+    margin-left: 8.5rem;
+    }
+.ft {
+    color: #000;
+    font-family: Aesthetic;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 42rem;
+}
+.email {
+    margin-left: 45rem;
+    font-family: 'Anybody', sans-serif;
+    font-size: 2.25rem;
+    font-style: normal;
+    text-decoration: none;
+    color: #000;
+    width: 15.5rem;
+    height: 3.6875rem;
+}
+.email:hover {
+    color: #D5594C;
+}
+div {
+    display: flex;
+}
+.splashimage {
+    width: 43.75rem;
+    height: 62.5rem;
+    flex-shrink: 0;
+}
+h5{
+    width: 43.75rem;
+    height: 62.5rem;
+    flex-shrink: 0;
+    background: #C9D9E7;
+}
+.or {
+    color: #000;
+    font-family: Anybody;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10rem;
+    margin-left: 15rem;
+}
+.handphoto {
+    margin-left: 15rem;
+}
+.about {
+    align-items: center;
+}
+.about p {
+    padding: 2rem;
+}
